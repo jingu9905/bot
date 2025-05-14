@@ -1,0 +1,31 @@
+/* style.css */
+body {
+  background: #fdf6e3;
+  font-family: 'Pretendard', sans-serif;
+  text-align: center;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+button {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border: none;
+  background: #4F46E5;
+  color: white;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #4338CA;
+}
